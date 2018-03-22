@@ -1,3 +1,10 @@
+# Homework 6
+
+
+- Observed Trend 1: Temperature increases as latitude gets closer to zero (as predicted)
+- Observed Trend 2: Although latitude doesn't seem to directly effect humidity, it does seem like there are more cities with humidity above 60% than less than 60%
+- Observed Trend 3: There didn't seem to be a direct relationship between windspeed and latitude. 
+
 
 
 ```python
