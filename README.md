@@ -1,6 +1,8 @@
 # Weather vs Latitude Analysis
 
-This analysis compares how weather changes across different latitude points. A random selection of 600 cities is selected by latitude and longitude. Because we are dealing with points on a sphere, I looked at http://mathworld.wolfram.com/SpherePointPicking.html as a resource to find how to find cities in a truly random way. Graphed results, conclusions, and a marked down jupyter notebook are shown below.
+This analysis compares how weather changes across different latitude points. A random selection of 600 cities is selected by latitude and longitude. Because we are dealing with points on a sphere, I looked at http://mathworld.wolfram.com/SpherePointPicking.html as a resource to find how to find cities in a truly random way. The [OpenWeatherMap API](https://openweathermap.org/api) was then used to get weather data.
+
+Graphed results, conclusions, and a marked down jupyter notebook are shown below.
 
 ##### Temperature (F) vs. Latitude
 
