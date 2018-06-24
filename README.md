@@ -1,12 +1,30 @@
-# Homework 6
+# Weather vs Latitude Analysis
+
+This analysis compares how weather changes across different latitude points. A random selection of 600 cities is selected by latitude and longitude. Because we are dealing with points on a sphere, I looked at http://mathworld.wolfram.com/SpherePointPicking.html as a resource to find how to find cities in a truly random way. Graphed results, conclusions, and a marked down jupyter notebook are shown below.
+
+##### Temperature (F) vs. Latitude
+
+![Temp vs Lat](output_8_0.png)
+
+##### Humidity (%) vs. Latitude
+
+![Humid vs Lat](output_9_0.png)
+
+##### Cloudiness (%) vs. Latitude
+
+![Cloud vs Lat](output_10_0.png)
+
+##### Wind Speed (mph) vs. Latitude
+
+![Wind vs Lat](output_11_0.png)
+
+### Conclusions
+1. Temperature increases as latitude gets closer to zero (as predicted)
+2. Although latitude doesn't seem to directly effect humidity, it does seem like there are more cities with humidity above 60% than less than 60%
+3. There didn't seem to be a direct relationship between windspeed and latitude. 
 
 
-- Observed Trend 1: Temperature increases as latitude gets closer to zero (as predicted)
-- Observed Trend 2: Although latitude doesn't seem to directly effect humidity, it does seem like there are more cities with humidity above 60% than less than 60%
-- Observed Trend 3: There didn't seem to be a direct relationship between windspeed and latitude. 
-
-
-
+### Markdown Jupyter Notebook
 ```python
 #Dependencies
 from citipy import citipy
